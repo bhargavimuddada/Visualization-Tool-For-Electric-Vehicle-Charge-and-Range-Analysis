@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EV-OPTIMA</title>
+
+<style>
+
+/* ===== GLOBAL ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background: linear-gradient(135deg, #eef5ff, #f9fcff);
+}
+
+/* ===== NAVBAR ===== */
+header{
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    padding:15px 60px;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+    box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#ffffff;
+    font-size:26px;
+    font-weight:700;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#a8ffec;
+}
+
+/* ===== SECTION ===== */
+section{
+    padding:120px 10%;
+    min-height:100vh;
+}
+
+h1,h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#1e3c72;
+}
+
+/* ===== HERO ===== */
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:44px;
+    color:#2a5298;
+    text-align:left;
+}
+
+.btn{
+    margin-top:25px;
+    padding:14px 28px;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border:none;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+}
+
+.hero-image{
+    width:50%;
+    text-align:right;
+}
+
+.hero-image img{
+    width:120%;
+    max-width:650px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+/* ===== ABOUT ===== */
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.about img{
+    width:50%;
+    max-width:550px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.about-content{
+    width:45%;
+}
+
+.about-content p{
+    line-height:1.8;
+    text-align:justify;
+    color:#555;
+}
+
+/* ===== TEAM ===== */
+.team-container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+}
+
+.team-card{
+    background:white;
+    padding:25px;
+    width:250px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.team-card:hover{
+    transform:translateY(-8px);
+}
+
+.team-card h3{
+    color:#0072ff;
+}
+
+/* ===== CONTACT ===== */
+.contact{
+    text-align:center;
+}
+
+iframe{
+    margin-top:25px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* ===== FOOTER ===== */
+footer{
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+<div class="logo">
+<a href="#home" style="color:white;text-decoration:none;">EV-OPTIMA</a>
+</div>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#dashboard">Dashboard</a></li>
+<li><a href="#story">Story</a></li>
+<li><a href="#team">Team</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+<div class="hero-text">
+<h1>Smart Analytics for EV Cars: Charge & Range Optimization</h1>
+<a href="#dashboard" class="btn">Get Started</a>
+</div>
+<div class="hero-image">
+<img src="https://media.istockphoto.com/id/1449551477/vector/comparing-electric-vehicle-versus-gasoline-diesel-car-suv.jpg?s=612x612&w=0&k=20&c=sCTjHT4OCfAwckYFK0oUDDED_g4vb-kHcyRQXShZmKc=" alt="EV Car">
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+
+<img src=https://media.istockphoto.com/id/1330249432/vector/electric-car-it-charging-a-battery-an-electric-recharge-station-ecology-concept-eco-city.jpg?s=612x612&w=0&k=20&c=APzO7FHsIIrUG0NCirpUS10cDn6XvGEr9fnP_rFDfcc=>
+
+<div class="about-content">
+<h2>EV-OPTIMA Start is a complete analytics tool for electric vehicles all over the world</h2>
+
+<p>
+Electric Vehicles are transforming transportation with clean energy solutions.EV-OPTIMA monitors battery performance, charging efficiency, range optimization,
+and global EV adoption trends. It helps governments, businesses and researchers
+make data-driven decisions for sustainable mobility.
+</p>
+
+<div id="moreText" style="display:none;">
+    <p>
+As EV adoption grows worldwide, the need for accurate data and performance insights becomes essential. EV-OPTIMA Start serves as a complete analytics tool that monitors and analyzes electric vehicle trends across different countries and markets. It provides valuable insights into battery performance, driving range, charging infrastructure, and market growth.
+
+By collecting worldwide data, the platform helps users compare EV performance and identify emerging opportunities. EV-OPTIMA Start supports governments and businesses in making data-driven decisions for sustainable mobility planning. It also helps researchers and students understand global EV adoption patterns.
+
+Through interactive dashboards and real-time analytics, it transforms complex information into clear visual insights. Overall, EV-OPTIMA Start strengthens worldwide electric mobility by connecting innovation, data, and sustainability.
+
+    </p>
+</div>
+
+<button class="btn" onclick="toggleReadMore()" id="readBtn">
+    Read More
+</button>
+
+</div>
+</section>
+
+<!-- DASHBOARD -->
+<section id="dashboard">
+<h2>Dashboard</h2>
+<p style="text-align:center;"></p>
+<div class='tableauPlaceholder' id='viz1771467580159' style='position: relative'><noscript><a href='#'><img alt='Electric Cars Analytics Dashboards ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;dashboard_17714258671630&#47;ElectricCarsAnalyticsDashboards&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='dashboard_17714258671630&#47;ElectricCarsAnalyticsDashboards' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;da&#47;dashboard_17714258671630&#47;ElectricCarsAnalyticsDashboards&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771467580159');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1036px';vizElement.style.height='2027px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1036px';vizElement.style.height='2027px';} else { vizElement.style.width='100%';vizElement.style.height='2377px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+ </script>
+</section>
+
+<!-- STORY -->
+<section id="story">
+<h2>📖 Story</h2>
+
+<div class='tableauPlaceholder' id='viz1771467508306' style='position: relative'><noscript><a href='#'><img alt='Story of Electric cars in India ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;story_17714262200860&#47;StoryofElectriccarsinIndia&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='story_17714262200860&#47;StoryofElectriccarsinIndia' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;story_17714262200860&#47;StoryofElectriccarsinIndia&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1771467508306');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1016px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+ </script>
+</section>
+
+<!-- TEAM -->
+<section id="team">
+<h2>Team</h2>
+<div class="team-container">
+<div class="team-card"><h3>Muddada Bhargavi</h3><p>Team Leader</p></div>
+<div class="team-card"><h3>Savara Geetha</h3><p>Team Member</p></div>
+<div class="team-card"><h3>Savara Swathi</h3><p>Team Member</p></div>
+<div class="team-card"><h3>Savara Hemalatha</h3><p>Team Member</p></div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+<h2>Contact</h2>
+<p>Email: bhargavimuddada9951@gmail.com</p>
+<p>Institution: GDCW(A) Srikakulam</p>
+<iframe src="https://www.google.com/maps?q=GDCW+Srikakulam&output=embed"
+width="100%" height="300"></iframe>
+</section>
+
+<footer>
+© 2026 EV-OPTIMA | All Rights Reserved
+</footer>
+
+
+<script>
+function toggleReadMore() {
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("readBtn");
+
+    if (moreText.style.display === "none" || moreText.style.display === "") {
+        moreText.style.display = "block";
+        btn.innerHTML = "Read Less";
+    } else {
+        moreText.style.display = "none";
+        btn.innerHTML = "Read More";
+    }
+}
+</script>
+
+</body>
+</html>
